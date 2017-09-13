@@ -13,7 +13,7 @@ htpasswd -b -c /etc/squid/passwd $squid_user $squid_password
 
 #/bin/rm -f /etc/squid/squid.conf
 touch /etc/squid/blacklist.acl
-#/usr/bin/wget --no-check-certificate -O /etc/squid/squid.conf https://raw.githubusercontent.com/hostonnet/squid-proxy-installer/master/squid.conf
+#/usr/bin/wget --no-check-certificate -O /etc/squid/squid.conf  https://github.com/khaledalhashem/squid/edit/master/squid/squid_centos.conf
 
 iptables -I INPUT -p tcp --dport 3128 -j ACCEPT
 #/sbin/iptables-save
