@@ -7,6 +7,8 @@
 # Edits: Khaled AlHashem
 # Site: https://naur.us
 
+squid_user=
+squid_password=
 
 yum update
 yum -y install squid httpd-tools
