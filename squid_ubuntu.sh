@@ -15,7 +15,7 @@
 
 /bin/rm -f /etc/squid/squid.conf
 /usr/bin/touch /etc/squid/blacklist.acl
-/usr/bin/wget --no-check-certificate -O /etc/squid/squid.conf https://github.com/khaledalhashem/squid/blob/master/squid_ubuntu.conf
+/usr/bin/wget --no-check-certificate -O /etc/squid/squid.conf https://github.com/khaledalhashem/squid/raw/master/squid_ubuntu.conf
 
 /sbin/iptables -I INPUT -p tcp --dport 3128 -j ACCEPT
 /sbin/iptables-save
