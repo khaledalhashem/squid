@@ -7,6 +7,8 @@
 # Edits: Khaled AlHashem
 # Site: https://naur.us
 
+squid_user=
+squid_password=
 
 /usr/bin/apt update
 /usr/bin/apt -y install apache2-utils squid3
