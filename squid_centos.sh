@@ -5,7 +5,7 @@
 # Author: admin@hostonnet.com
 # Blog: https://blog.hostonnet.com
 # Edits: Khaled AlHashem
-# Site: https://naur.us
+# Site: https://knaved.com
 # Version 0.1
 
 squid_user=
