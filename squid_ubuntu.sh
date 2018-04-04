@@ -5,7 +5,7 @@
 # Author: admin@hostonnet.com
 # Blog: https://blog.hostonnet.com
 # Edits: Khaled AlHashem
-# Site: https://naur.us
+# Site: https://knaved.com
 
 squid_user=
 squid_password=
