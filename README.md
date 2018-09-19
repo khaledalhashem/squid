@@ -1,4 +1,4 @@
-#Squid oneliner installer
+Squid oneliner installer
 ========
 
 This bash script will auto install Squid Proxy on either CentOS 7.x or Ubuntu 16.04 server.
